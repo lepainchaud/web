@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -29,8 +23,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../webfonts/BakeryRoastDemoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-	line-height: 1;
+	line-height: 1;	
 }
 
 ol, ul {
@@ -2103,17 +2104,19 @@ input, select, textarea {
 
 		#logo h1 {
 			position: relative;
-			color: #fff;
+			margin: 0 0 0 -1.75em;
+			color: #663300;
+			font-family: 'MyCustomFont', sans-serif;
 			font-weight: 600;
-			font-size: 1em;
+			font-size: 2em;
 			line-height: 1em;
 		}
 
 		#logo p {
 			position: relative;
 			display: block;
-			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.5);
+			font-size: 1em;
+			color: rgba(255, 255, 255, 0.9);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
@@ -2137,7 +2140,7 @@ input, select, textarea {
 			#nav ul li a {
 				display: block;
 				padding: 0.5em 1.5em 0.5em 1.5em;
-				color: rgba(255, 255, 255, 0.5);
+				color: rgba(255, 255, 255, 0.8);
 				text-decoration: none;
 				outline: 0;
 				border: 0;
@@ -2222,11 +2225,11 @@ input, select, textarea {
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: inherit;
+					color: rgba(0, 0, 0, 1);
 				}
 
 				#main > section.dark strong {
-					color: #fff;
+					color: #000;
 					border-color: inherit;
 				}
 
