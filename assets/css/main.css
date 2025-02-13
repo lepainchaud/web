@@ -1800,7 +1800,7 @@ input, select, textarea {
 	}
 
 	.centered-image {
-		max-width: 25%; /* Ensures the image scales down if it's too large */
+		max-width: 33%; /* Ensures the image scales down if it's too large */
 		height: auto; /* Keeps the aspect ratio intact */
 	}
 
