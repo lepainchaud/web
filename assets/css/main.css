@@ -1792,6 +1792,17 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+			
+	.container_contact_pic {
+		display: flex;
+		justify-content: center;
+		align-items: center;		
+	}
+
+	.centered-image {
+		max-width: 25%; /* Ensures the image scales down if it's too large */
+		height: auto; /* Keeps the aspect ratio intact */
+	}
 
 /* List */
 
