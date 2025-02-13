@@ -1791,6 +1791,17 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+			
+	#contact_pic {
+		display: block;
+		text-align: center;
+		height: 100vh;
+	}
+
+	#contact_pic img {
+		width: 50%;
+		height: auto;
+	}
 
 /* List */
 
