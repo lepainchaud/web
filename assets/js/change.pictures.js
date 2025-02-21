@@ -1,8 +1,8 @@
 // List of background images (can be URLs or paths to your images)
 const images = [
-    'url(../../banner.jpg)', 
-    'url(../../beef_rendang.jpg)', 
-    'url(../../burek.jpg)'
+    'url(../../images/banner.jpg)', 
+    'url(../../images/beef_rendang.jpg)', 
+    'url(../../images/burek.jpg)'
 ]; 
 
 let currentIndex = 0; // Start with the first image
