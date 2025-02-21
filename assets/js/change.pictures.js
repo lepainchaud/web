@@ -10,7 +10,7 @@ let currentIndex = 0; // Start with the first image
 function changeBackgroundImage() {
     // Update the background-image of the element
     currentIndex = (currentIndex + 1) % images.length;
-    document.getElementById('container').style.backgroundImage = images[currentIndex];
+    document.getElementById('slideshow').style.backgroundImage = images[currentIndex];
 }
 
 // Change the background image every 10 seconds
