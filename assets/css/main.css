@@ -2262,7 +2262,7 @@ input, select, textarea {
 
 			#main > section.one {
 				color: #333333;
-				background-image: url("../../images/banner.jpg");
+				/* background-image: url("../../images/banner.jpg"); */
 			}
 
 			#main > section.two {
